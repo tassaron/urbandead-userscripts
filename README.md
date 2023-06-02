@@ -5,6 +5,9 @@
 ## Installation
 You must have the Greasemonky addon for Firefox installed. To install from here, view the desired script in raw mode. Greasemonkey should automatically detect it.
 
+## Troubleshooting
+Please make sure the script is actually being applied to the webpage before reporting a bug. It's allowed on https://www.urbandead.com so you should be using HTTPS and the www part, or else allow the script manually.
+
 ## Scripts
 ### [UD Map Skinner](https://github.com/tassaron2/urbandead-userscripts/raw/main/UD_Map_Skinner.user.js)
 * Applies images from the classic Firefox add-on, UDToolbar, to the in-game map.

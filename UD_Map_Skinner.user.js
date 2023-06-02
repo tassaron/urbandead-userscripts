@@ -4,8 +4,8 @@
 // @version        1.2.0
 // @description    Applies images from the original Firefox UDToolbar to the UrbanDead in-game map.
 // @updateURL      https://github.com/tassaron2/urbandead-userscripts/raw/main/UD_Map_Skinner.user.js
-// @include        http://*urbandead.com/map.cgi*
-// @exclude        http://*urbandead.com/map.cgi?logout
+// @include        https://www.urbandead.com/map.cgi*
+// @exclude        https://www.urbandead.com/map.cgi?logout
 // ==/UserScript==
 
 // images converted using http://uri.rappdaniel.com/
