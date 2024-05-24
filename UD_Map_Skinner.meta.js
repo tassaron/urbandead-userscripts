@@ -2,7 +2,7 @@
 // @author         UDToolbar
 // @name           UD Map Skinner
 // @namespace      Tassaron
-// @version        1.2.1
+// @version        1.2.2
 // @description    Applies images from the original Firefox UDToolbar to the Urban Dead in-game map.
 // @include        https://www.urbandead.com/map.cgi*
 // @exclude        https://www.urbandead.com/map.cgi?logout

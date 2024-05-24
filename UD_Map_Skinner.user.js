@@ -2,7 +2,7 @@
 // @author         UDToolbar
 // @name           UD Map Skinner
 // @namespace      Tassaron
-// @version        1.2.1
+// @version        1.2.2
 // @description    Applies images from the original Firefox UDToolbar to the Urban Dead in-game map.
 // @include        https://www.urbandead.com/map.cgi*
 // @exclude        https://www.urbandead.com/map.cgi?logout
@@ -375,7 +375,8 @@ function getGPS(bordercheck) {
 function showCoords(coordinates) {
     var elem = document.evaluate("//td[@class='cp']/table[@class='c']/tbody/tr/td[@class='sb']", document, null, XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null);
 
-    if (elem.snapshotLength == 0 || !coordinates) return;
+    // Exit early if the suburb name is not found, no coords provided, or the coords have already been added
+    if (elem.snapshotLength == 0 || !coordinates || elem.snapshotItem(0).childElementCount > 0) return;
 
     // Create anchor element for coords
     // This used to be a hyperlink but the website went offline
